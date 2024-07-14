@@ -1,0 +1,36 @@
+.diagram-canvas {
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.state-node {
+  cursor: move;
+}
+
+.state-circle {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 2;
+}
+
+.state-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  fill: #000000;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.transition-line {
+  stroke: #ffffff;
+  stroke-width: 2;
+  marker-end: url(#arrowhead);
+}
+
+.transition-text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  fill: #ffffff;
+}
